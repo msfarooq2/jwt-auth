@@ -8,6 +8,7 @@ public class JwtAuthApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JwtAuthApplication.class, args);
+		System.out.println("after stashing");
 	}
 
 }
